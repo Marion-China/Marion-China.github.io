@@ -454,21 +454,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-01-05
+                    2023-01-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.2k
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    13 分
+                    11 分
                 </div>
                 
 
@@ -637,8 +637,8 @@
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-02%2014.11.02.png" alt="SSH密钥的位置"></p>
 <p>SSH简单的说就是公钥加密，私钥解密，<code>id_rsa</code>是私钥，不能泄漏的，<code>id_rsa.pub</code>	是公钥，可以传给别人。把公钥放在GitHub上，这样当你连接GitHub账户时，它就会公钥加密，私钥解密，如果密钥无误，才能顺利的通过git上传你的文件到GitHub上。</p>
 <h2 id="3-上传公钥到GitHub"><a href="#3-上传公钥到GitHub" class="headerlink" title="3.上传公钥到GitHub"></a>3.上传公钥到GitHub</h2><p>1.打开<a target="_blank" rel="noopener" href="https://github.com/">Github</a></p>
-<p>2.点击Settings![GitHub演示](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 10.46.34.png)</p>
-<p>3.点击SSH and GPG keys![GitHub演示](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 10.47.43.png)</p>
+<p>2.点击Settings<img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0510.46.34.png" alt="GitHub演示"></p>
+<p>3.点击SSH and GPG keys<img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0510.47.43.png" alt="GitHub演示"></p>
 <p>4.点击New SSH key</p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/Snipaste_2022-09-05_10-52-55.png" alt="Snipaste_2022-09-05_10-52-55"></p>
 <p>5.把<code>id_rsa.pub</code>里面的内容复制进去。</p>
@@ -648,9 +648,9 @@
 <p>（别忘了<code>cd</code>到hexo的文件夹）</p>
 <p>输入<code>ssh -T git@github.com </code>来查看是否成功</p>
 <p>这里需要输入yes</p>
-<p>![](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 11.18.54.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0511.18.54.png"></p>
 <h2 id="4-关联hexo和GitHub"><a href="#4-关联hexo和GitHub" class="headerlink" title="4.关联hexo和GitHub"></a>4.关联hexo和GitHub</h2><p>1.在hexo的根目录下，找到_config，打开它，在最后几行</p>
-<p>![截屏2022-09-05 13.20.57](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 13.20.57.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0513.20.57.png" alt="截屏2022-09-05 13.20.57"></p>
 <p>添加：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
 
@@ -659,7 +659,7 @@
 <p>（别忘了<code>cd</code>到hexo的文件夹）</p>
 <p>2.输入</p>
 <p><code>npm install hexo-deployer-git --save</code></p>
-<p>![完成后显示状态](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 13.41.02.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0513.41.02.png" alt="完成后显示状态"></p>
 <p>3.输入</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
@@ -718,19 +718,19 @@
 <p>官方解释：<a target="_blank" rel="noopener" href="https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/">https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/</a></p>
 <p>大致就是正常的密码在2021年8月13日后就不可用了，需要申请专门用于终端的“密码”</p>
 <h2 id="6-创建专门“密码”方法"><a href="#6-创建专门“密码”方法" class="headerlink" title="6.创建专门“密码”方法"></a>6.创建专门“密码”方法</h2><p>1.打开<a target="_blank" rel="noopener" href="https://github.com/">Github</a></p>
-<p>2.点击Settings![GitHub演示](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 10.46.34.png)</p>
+<p>2.点击Settings<img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0510.46.34.png" alt="GitHub演示"></p>
 <p>3.点击Developer settings</p>
-<p>![GitHub演示](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 14.37.52.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.37.52.png" alt="GitHub演示"></p>
 <p>4.点击Personal access tokens，然后点击Generate new token</p>
-<p>![截屏2022-09-05 14.39.48](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 14.39.48.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.39.48.png" alt="截屏2022-09-05 14.39.48"></p>
 <p>5.Note随便，Expiration（到期）建议设置为未过期（No expiration）</p>
-<p>![](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 14.53.21.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.53.21.png"></p>
 <p>权限建议全选，之后点击Generate token</p>
-<p>![](<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-05">https://raw.githubusercontent.com/Marion-China/resource/main/保姆级教程如何用GitHub和hexo搭建一个属于自己的博客/截屏2022-09-05</a> 14.54.47.png)</p>
+<p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.54.47.png"></p>
 <p>之后一会看到密钥，<strong>请立刻保存，无法显示第二次！！！！！</strong></p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/Snipaste_2022-09-05_14-55-04.png"></p>
 <p>教程短暂完结，未来持续更新</p>
-<h1 id="6-常见问题"><a href="#6-常见问题" class="headerlink" title="6.常见问题"></a>6.常见问题</h1><h2 id="lt-1-gt-上传失败"><a href="#lt-1-gt-上传失败" class="headerlink" title="&lt;1&gt;上传失败"></a>&lt;1&gt;上传失败</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (/Users/xxxx/文稿-本地/hexo/node_modules/hexo-util/lib/spawn.js:51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:513:28)</span><br><span class="line">    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)</span><br></pre></td></tr></table></figure>
+<h2 id="6-常见问题"><a href="#6-常见问题" class="headerlink" title="6.常见问题"></a>6.常见问题</h2><h3 id="lt-1-gt-上传失败"><a href="#lt-1-gt-上传失败" class="headerlink" title="&lt;1&gt;上传失败"></a>&lt;1&gt;上传失败</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (/Users/xxxx/文稿-本地/hexo/node_modules/hexo-util/lib/spawn.js:51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:513:28)</span><br><span class="line">    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)</span><br></pre></td></tr></table></figure>
 
 <p>重新上传即可</p>
 
