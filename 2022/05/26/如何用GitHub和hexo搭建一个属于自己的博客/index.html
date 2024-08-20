@@ -550,14 +550,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.4k
+                    4.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    17 分
+                    18 分
                 </div>
                 
 
@@ -843,10 +843,11 @@
 <p>3.点击Developer settings</p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.37.52.png" alt="GitHub演示"></p>
 <p>4.点击Personal access tokens，然后点击Generate new token</p>
+<p><em>2024年8月注：在两个二级菜单中选择“Tokens(classic)目前就可以”</em></p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.39.48.png" alt="截屏2022-09-05 14.39.48"></p>
 <p>5.Note随便，Expiration（到期）建议设置为未过期（No expiration）</p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.53.21.png"></p>
-<p>权限建议全选，之后点击Generate token</p>
+<p>权限建议全选，不过如果您只用于在终端台中Push的话，可以只选择最上面的所有的“repo”。之后点击Generate token</p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/%E6%88%AA%E5%B1%8F2022-09-0514.54.47.png"></p>
 <p>之后一会看到密钥，<strong>请立刻保存，无法显示第二次！！！！！</strong></p>
 <p><img src="https://raw.githubusercontent.com/Marion-China/resource/main/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/Snipaste_2022-09-05_14-55-04.png"></p>
@@ -874,6 +875,13 @@
 <p>执行策略解释:</p>
 <p>    Restricted: 不允许运行任何脚本。Windows PowerShell 只能以交互模式使用。<br>    RemoteSigned: 从互联网下载的脚本必须由受信任的发布者签名才能运行。<br>    Unrestricted: 没有任何限制，可以运行所有 Windows PowerShell 脚本。</p>
 <p>如果你还有其他问题或需要进一步的帮助，请告诉我！（这个我也复制了嘿嘿(复制ChatGPT到markdown似乎有些费劲，生成的markdown过一些就不是了)）</p>
+<h2 id="lt-4-gt-在Windows下任何命令中因为加sudo而产生问题"><a href="#lt-4-gt-在Windows下任何命令中因为加sudo而产生问题" class="headerlink" title="&lt;4&gt;在Windows下任何命令中因为加sudo而产生问题"></a>&lt;4&gt;在Windows下任何命令中因为加sudo而产生问题</h2><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo : The term <span class="string">&#x27;sudo&#x27;</span> is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling</span><br><span class="line">of the name, or <span class="keyword">if</span> a path was included, verify that the path is correct and <span class="keyword">try</span> again.</span><br><span class="line">At line:<span class="number">1</span> char:<span class="number">1</span></span><br><span class="line">+ sudo hexo c</span><br><span class="line">+ ~~~~</span><br><span class="line">    + CategoryInfo          : ObjectNotFound: (sudo:String) [], CommandNotFoundException</span><br><span class="line">    + FullyQualifiedErrorId : CommandNotFoundException</span><br></pre></td></tr></table></figure>
+
+<p>如标题所示，删除sudo即可</p>
+<h2 id="lt-5-gt-没有使用专用密码在部署时出现错误"><a href="#lt-5-gt-没有使用专用密码在部署时出现错误" class="headerlink" title="&lt;5&gt; 没有使用专用密码在部署时出现错误"></a>&lt;5&gt; 没有使用专用密码在部署时出现错误</h2><p>形如：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">warning: <span class="keyword">in</span> the working <span class="built_in">copy</span> of <span class="string">&#x27;archives/2024/08/index.html&#x27;</span>, LF will be replaced by CRLF the next time Git touches it</span><br><span class="line">[<span class="type">main</span> <span class="number">9</span><span class="type">a7e12b</span>] Site updated: <span class="number">2024</span><span class="literal">-08-20</span> <span class="number">18</span>:<span class="number">22</span>:<span class="number">33</span></span><br><span class="line"> <span class="number">21</span> files changed, <span class="number">1405</span> insertions(+), <span class="number">384</span> deletions(-)</span><br><span class="line"> rename &#123;<span class="number">2022</span>/<span class="number">05</span>/<span class="number">25</span> =&gt; <span class="number">2024</span>/<span class="number">08</span>/<span class="number">17</span>&#125;/hello<span class="literal">-world</span>/index.html (<span class="number">96</span>%)</span><br><span class="line"> create mode <span class="number">100644</span> archives/<span class="number">2024</span>/<span class="number">08</span>/index.html</span><br><span class="line">fatal: User cancelled dialog.</span><br></pre></td></tr></table></figure>
+
+<p>如标题所示，没有使用专用密码在部署时出现错误。您可以把这个好好看看：<a target="_blank" rel="noopener" href="https://marion-china.github.io/2022/05/26/%E5%A6%82%E4%BD%95%E7%94%A8GitHub%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/#toc-heading-28">如何用GitHub和hexo搭建一个属于自己的博客? | Finder——## 6.创建专门“密码”方法</a></p>
 
                 
             </div>
